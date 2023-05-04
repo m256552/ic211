@@ -2,6 +2,7 @@ public class Ex1 {
 
     public static void foo(int a, int[] b, String c) {
         //do something here!
+        //cant make me
     }
 
     public static void main(String[] args) {
