@@ -15,11 +15,10 @@ public class Lab1c {
         }
         else
         {
-            keepGuessing(ranNum);
+            keepGuessing(ranNum, in);
         }
     }
-    public static void keepGuessing(int ranNum){
-        Scanner in = new Scanner(System.in);
+    public static void keepGuessing(int ranNum, Scanner in){
         System.out.print("You idiot. Guess again: ");
         int guess = in.nextInt();
         int counter = 1;
