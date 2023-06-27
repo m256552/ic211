@@ -8,6 +8,23 @@ public class ListStuff
         nNew.data = s;
         return nNew;
     }
+    public static StringNode addToBack(String s, StringNode head)
+    {
+        StringNode nNew = new StringNode();
+        nNew.data = s;
+        nNew.next = null;
+        StringNode tempNode = head;
+        if(head == null)
+        {
+            return nNew;
+        }
+        while(tempNode.next != null)
+        {
+            tempNode = tempNode.next;
+        }
+        tempNode.next = nNew;
+        return head;
+    }
   
     // listToArray(N) returns a reference to an array containing the same strings
     //as in the list N (in the order they were received)
