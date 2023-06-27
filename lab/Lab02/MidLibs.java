@@ -3,10 +3,23 @@ public class MidLibs {
 
     public static void main(String[] args) {
 
-        // Try running the command
-        // java MidLibs hello everyone everwhere
-        System.out.print("The first argument is " + args[0] + "\n" );
-        System.out.print("The second argument is " + args[1] + "\n" );
-        System.out.print("The third argument is " + args[2] + "\n" );
+        if(args.length != 2)
+        {
+            System.out.println("usage: java MidLibs <filename> <columns>");
+            return;
+        }
+        String filename;
+        int cols;
+        filename = args[0];
+        cols = Integer.parseInt(args[1]);
+        String [] A;
+        A = WordRead.get(filename);
+        //new code here where we put the
+        //
+        //
+        //
+        //
+        Formatter.writeInColumns(A, cols);        
+ 
     }
 }
