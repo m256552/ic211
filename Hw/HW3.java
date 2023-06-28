@@ -7,7 +7,7 @@ public class HW3
      * How many mids, based off that number will ask the following
      * questions based off how many mids the user inputs. 
      * 
-     * Alpha
+     * Alpha      
      * First name
      * Last name
      * Company
