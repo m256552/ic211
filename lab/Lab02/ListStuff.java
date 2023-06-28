@@ -1,6 +1,12 @@
 public class ListStuff 
 {
     // addToFront(s,Nold) returns a StringNode reference representing the list obtained by adding s to the front of list Nold
+    /**
+     * takes a string s from 
+     * @param s
+     * @param head
+     * @return
+     */
     public static StringNode addToFront(String s, StringNode head) 
     {
         StringNode nNew = new StringNode();
