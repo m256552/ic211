@@ -16,6 +16,18 @@ public class Point
         x = newx;
         y = newy;
     }  
+    public double getX()
+    {
+        this.x = x;
+        return x;
+    }
+    public double getY()
+    {
+        this.y = y;
+        return y;
+    }
+    
+
     /**
      * the method that reads an x 
      * and a y value from the scanner and 
