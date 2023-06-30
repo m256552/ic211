@@ -3,6 +3,7 @@ import java.util.*;
 public class Cage 
 {
     private Animal animalInCage = null;
+    private LinkedList animals ;
 
     public void loadAnimal(Animal a)
     {      
