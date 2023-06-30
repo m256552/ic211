@@ -1,0 +1,1 @@
+javac *.java && java MidLibs madin01.txt 20

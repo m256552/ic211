@@ -39,8 +39,6 @@ public class Animal
     }
     /**
      * 
-     * 
-     * 
      * @return
      */
     public String describe()
