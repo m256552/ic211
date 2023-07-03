@@ -1,12 +1,15 @@
 import java.util.*;
 public class Rotor {
 
-    public Rotor()
+    String [] A = new String[27];
+
+    public Rotor(String key)
     {
-        String [] A = new String[27];
-        A[0] = "#";
-
-
+        for(int i = 0; i<key.length(); i++)
+        {
+            A[i] = key[i];
+        }
+        A = key;
     }
     public String [] rotate(String [] A)
     {
@@ -25,6 +28,15 @@ public class Rotor {
             temp = A[A.length];
 
         }
+    }
+    public static void main(String [] args)
+    {
+
+        Rotor r = new Rotor();
+        r = "#GNUAHOVBIPWCJQXDKRYELSZFMT";
+        String key = "#GNUAHOVBIPWCJQXDKRYELSZFMT";
+
+
 
     }
     
